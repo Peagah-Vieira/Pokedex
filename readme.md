@@ -1,22 +1,27 @@
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/Peagah-Vieira/Filament_Barbershop/blob/master/README-br.md)
 # Pokedex
 
-A pokedex made while just for fun.
+List of Pokemons and their respective details using the PokeAPI.
 
+## Functionalities
 
+- Search bar
+- Status
+- Type
+- Pokemon gifs
+- Multiplataform
 
-## Features
+## Demonstration
 
-- Search by pokemon
-- GIF's
-- Pokemon Type/attributes
+https://peagah-vieira.github.io/Pokemon/index.html
 
+## Stack used
 
-## Demo
+**Frontend:** CSS
 
-https://peagah-vieira.github.io/Pokemon/
-
+**Backend:** JavaScript
 
 ## Documentation
 
- - [PokeAPI](https://pokeapi.co)
-
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
