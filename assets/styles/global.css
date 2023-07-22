@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
 
 :root {
-  --red: #DE1337;
+  --red: #de1337;
   --black: #343434;
   --white: #fff;
 }
@@ -14,5 +14,5 @@
 
 body {
   background-color: var(--red);
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }

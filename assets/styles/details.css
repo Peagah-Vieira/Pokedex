@@ -1,6 +1,5 @@
-@import url('./global.css');
-@import url('./header.css');
-
+@import url("./global.css");
+@import url("./header.css");
 
 .back-link {
   position: absolute;
@@ -8,7 +7,6 @@
   left: 41px;
   color: #fff;
 }
-
 
 .arrow {
   position: absolute;
@@ -32,7 +30,6 @@
     transform: translateX(0px);
   }
 
-
   100% {
     transform: translateX(5px);
   }
@@ -46,12 +43,10 @@
   animation: move-to-left 0.5s infinite alternate;
 }
 
-
 @keyframes move-to-left {
   0% {
     transform: translateX(0px);
   }
-
 
   100% {
     transform: translateX(-5px);
@@ -109,7 +104,7 @@
   margin-right: 5px;
   display: flex;
   align-items: center;
-  border: 1px solid #7B8083;
+  border: 1px solid #7b8083;
   border-radius: 5px;
 }
 
@@ -123,7 +118,7 @@
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-  background-color: #7B8083;
+  background-color: #7b8083;
   display: block;
   height: 100%;
   padding: 3px;
@@ -150,11 +145,10 @@
   margin-top: 19px;
 }
 
-.pokemon-basic-info span:first-of-type{
+.pokemon-basic-info span:first-of-type {
   display: inline-block;
   margin-right: 1rem;
 }
-
 
 .pokemon-stats {
   list-style: none;
@@ -164,35 +158,35 @@
   margin: 32px auto 0 auto;
 }
 
-.pokemon-stats  li {
+.pokemon-stats li {
   width: 58px;
   height: 49px;
   border-radius: 5px;
-  padding: .2rem;
+  padding: 0.2rem;
 }
 
 .pokemon-stats li:nth-of-type(1) {
-  background-color: #FF5959;
+  background-color: #ff5959;
 }
 
 .pokemon-stats li:nth-of-type(2) {
-  background-color: #F5AC78;
+  background-color: #f5ac78;
 }
 
 .pokemon-stats li:nth-of-type(3) {
-  background-color: #FAE078;
+  background-color: #fae078;
 }
 
 .pokemon-stats li:nth-of-type(4) {
-  background-color: #9DB7F5;
+  background-color: #9db7f5;
 }
 
 .pokemon-stats li:nth-of-type(5) {
-  background-color: #A7DB8D;
+  background-color: #a7db8d;
 }
 
 .pokemon-stats li:nth-of-type(6) {
-  background-color: #FA92B2;
+  background-color: #fa92b2;
 }
 
 .load-animation {
@@ -204,7 +198,7 @@
 .load-animation svg {
   width: 100px;
   margin: 0 auto;
-  animation: loadAnimation infinite .4s alternate-reverse;
+  animation: loadAnimation infinite 0.4s alternate-reverse;
 }
 
 @keyframes loadAnimation {
@@ -233,7 +227,6 @@
     z-index: 1;
   }
 
-  
   .arrow-right:hover {
     animation-duration: 0ms;
   }

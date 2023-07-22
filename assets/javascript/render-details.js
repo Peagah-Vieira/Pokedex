@@ -5,7 +5,7 @@ const $arrowRight = document.querySelector(".arrow-right");
 let id = null;
 
 const typesColors = {
-  "normal" : "#6d6d4e",
+  "normal": "#6d6d4e",
   "fire": "#f08030",
   "fighting": "#c03028",
   "water": "#6890f0",
@@ -23,7 +23,7 @@ const typesColors = {
   "dark": "#705848",
   "steel": "#b8b8d0",
   "fairy": "#ee99ac",
-}    
+}
 
 
 async function getPokemonDetails(pokemonId) {
@@ -67,13 +67,13 @@ function generateCard(pokemon) {
 
       <ul class="pokemon-types">
         ${pokemon.types.map(({ type }) => {
-          const imgName = type.name.charAt().toUpperCase() + type.name.substr(1);
+    const imgName = type.name.charAt().toUpperCase() + type.name.substr(1);
 
-          return `<li style="border-color: ${typesColors[type.name]}">
+    return `<li style="border-color: ${typesColors[type.name]}">
                     <img src="assets/images/pokemon-types/${imgName}.png" alt="Normal">
                     <span style="background-color: ${typesColors[type.name]}">${type.name}</span>
                   </li>`
-        }).join("")}
+  }).join("")}
       </ul>
     </header>
 
@@ -121,7 +121,7 @@ window.addEventListener('popstate', () => {
 });
 
 $arrowLeft.addEventListener('click', () => {
-  if(id === 1) {
+  if (id === 1) {
     return;
   }
 
@@ -131,7 +131,7 @@ $arrowLeft.addEventListener('click', () => {
 });
 
 $arrowRight.addEventListener('click', () => {
-  if(id === 1008) {
+  if (id === 1008) {
     return;
   }
 
